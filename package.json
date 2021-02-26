@@ -1,0 +1,29 @@
+{
+  "name": "@subgeniuscorp/eslint-config-node",
+  "version": "1.0.1",
+  "description": "eslint shared config for node projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subgeniuscorp/eslint-config-node.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Nikhil Vijayan <nkhilv@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subgeniuscorp/eslint-config-node/issues"
+  },
+  "homepage": "https://github.com/subgeniuscorp/eslint-config-node#readme",
+  "dependencies": {
+    "eslint": "7.20.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
