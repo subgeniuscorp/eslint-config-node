@@ -20,7 +20,7 @@ module.exports = {
   rules: {
     semi: ["error", "always"],
     quotes: ["error", "single"],
-    indent: ["error", "tab"],
+    indent: ["error", 2],
     "max-len": ["error", { code: 120 }],
     "no-console": ["error"],
     "eol-last": ["error", "always"],
