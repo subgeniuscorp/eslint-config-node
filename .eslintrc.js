@@ -1,29 +1,29 @@
 module.exports = {
 
-  globals: {
-    MyGlobal: true
-  },
+	globals: {
+		MyGlobal: true
+	},
 
-  parserOptions: {
-    ecmaVersion: 2020,
-  },
+	parserOptions: {
+		ecmaVersion: 2020,
+	},
 
-  env: {
-    node: true,
-  },
+	env: {
+		node: true,
+	},
 
-  extends: [
-    'airbnb',
-    'eslint:recommended',
-  ],
+	extends: [
+		'airbnb',
+		'eslint:recommended',
+	],
 
-  rules: {
-    semi: ["error", "always"],
-    quotes: ["error", "single"],
-    indent: ["error", 2],
-    "max-len": ["error", { code: 120 }],
-    "no-console": ["error"],
-    "eol-last": ["error", "always"],
-  }
+	rules: {
+		semi: ["error", "always"],
+		quotes: ["error", "single"],
+		indent: ["error", 2],
+		"max-len": ["error", { code: 120 }],
+		"no-console": ["warn"],
+		"eol-last": ["error", "always"],
+	}
 
 };
