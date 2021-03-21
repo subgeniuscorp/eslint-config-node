@@ -13,17 +13,7 @@ module.exports = {
 	},
 
 	extends: [
-		'airbnb',
-		'eslint:recommended',
+		'wesbos'
 	],
-
-	rules: {
-		semi: ["error", "always"],
-		quotes: ["error", "single"],
-		indent: ["error", 2],
-		"max-len": ["error", { code: 120 }],
-		"no-console": ["warn"],
-		"eol-last": ["error", "always"],
-	}
 
 };
